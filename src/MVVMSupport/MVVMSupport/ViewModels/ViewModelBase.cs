@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Windows;
 
 namespace MVVMSupport.ViewModels
 {
@@ -7,6 +8,24 @@ namespace MVVMSupport.ViewModels
     /// </summary>
     public abstract class ViewModelBase : INotifyPropertyChanged
     {
+        /// <summary>
+        /// Gets a bool value representing whether the program is operating in design mode.
+        /// </summary>
+        public bool IsInDesingMode
+        {
+            get { return is_in_design_mode; }
+        }
+
+        /// <summary>
+        /// Gets a bool value representing whether the program is operating in design mode.
+        /// </summary>
+        public static bool IsInDesignModeStatic
+        {
+            get { return is_in_design_mode; }
+        }
+
+        private static readonly bool is_in_design_mode = DesignerProperties.GetIsInDesignMode(new DependencyObject());
+
         #region INotifyPropertyChanged members
         /// <summary>
         /// Notifies clients when a property has changed.
