@@ -50,6 +50,10 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Messenger\DataMessage.cs" />
+    <Compile Include="Messenger\IMessage.cs" />
+    <Compile Include="Messenger\NotificiationMessage.cs" />
+    <Compile Include="Messenger\PropertyChangedMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
