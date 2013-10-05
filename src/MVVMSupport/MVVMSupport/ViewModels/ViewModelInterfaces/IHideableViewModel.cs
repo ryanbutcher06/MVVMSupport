@@ -3,7 +3,7 @@
     /// <summary>
     /// Represents a viewmodel whose view can be hidden.
     /// </summary>
-    public interface IHideableView
+    public interface IHideableViewModel
     {
         /// <summary>
         /// Notifies clients that the viewmodel requested to hide.

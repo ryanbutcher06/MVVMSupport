@@ -3,7 +3,7 @@
     /// <summary>
     /// Represnts a viewmodel whose view is showable.
     /// </summary>
-    public interface IShowableView
+    public interface IShowableViewMdoel
     {
         /// <summary>
         /// Notifies clients that the viewmodel requested to be shown.

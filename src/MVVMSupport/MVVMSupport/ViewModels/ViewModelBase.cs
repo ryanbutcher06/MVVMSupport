@@ -9,6 +9,17 @@ namespace MVVMSupport.ViewModels
     public abstract class ViewModelBase : INotifyPropertyChanged
     {
         /// <summary>
+        /// Initializes a new instance of viewmodel base.
+        /// </summary>
+        public ViewModelBase()
+        {
+            if (IsInDesingMode)
+                SetupDesigntime();
+            else
+                SetupRuntime();
+        }
+
+        /// <summary>
         /// Gets a bool value representing whether the program is operating in design mode.
         /// </summary>
         public bool IsInDesingMode
@@ -23,6 +34,18 @@ namespace MVVMSupport.ViewModels
         {
             get { return is_in_design_mode; }
         }
+
+        /// <summary>
+        /// Provides a fixture for subclasses to override that will initialize runtime variables.
+        /// </summary>
+        protected virtual void SetupRuntime()
+        { }
+
+        /// <summary>
+        /// Provides a fixture for subclasses to override that will initialize designtime variables.
+        /// </summary>
+        protected virtual void SetupDesigntime()
+        { }
 
         private static readonly bool is_in_design_mode = DesignerProperties.GetIsInDesignMode(new DependencyObject());
 

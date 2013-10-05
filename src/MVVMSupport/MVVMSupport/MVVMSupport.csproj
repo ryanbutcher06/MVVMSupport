@@ -68,8 +68,8 @@
     <Compile Include="ViewModels\ViewModelInterfaces\ICloseableViewModel.cs" />
     <Compile Include="ViewModels\ObservableObject.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
-    <Compile Include="ViewModels\ViewModelInterfaces\IHideableView.cs" />
-    <Compile Include="ViewModels\ViewModelInterfaces\IShowableView.cs" />
+    <Compile Include="ViewModels\ViewModelInterfaces\IHideableViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelInterfaces\IShowableViewMdoel.cs" />
     <Compile Include="Views\ApplicationWindow.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -6,7 +6,7 @@ namespace MVVMSupport.ViewModels
     /// Represnts the viewmodel for an application window.
     /// If used with an instance of ApplicationWindow, requesting hide, show, or close will call the corresponding method on the window.
     /// </summary>
-    public class ApplicationWindowViewModel : ViewModelBase, IHideableView, ICloseableViewModel, IShowableView
+    public class ApplicationWindowViewModel : ViewModelBase, IHideableViewModel, ICloseableViewModel, IShowableViewMdoel
     {
         /// <summary>
         /// Notifies clients that the viewmodel requested to hide.
