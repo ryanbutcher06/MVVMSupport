@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMSupport", "MVVMSupport\MVVMSupport.csproj", "{F91809DB-B127-4E30-BCBA-C19F72244AEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMSupport.Tests", "MVVMSupport.Tests\MVVMSupport.Tests.csproj", "{50E95370-2C5E-4920-BB4D-AD528405B469}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F91809DB-B127-4E30-BCBA-C19F72244AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F91809DB-B127-4E30-BCBA-C19F72244AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F91809DB-B127-4E30-BCBA-C19F72244AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E95370-2C5E-4920-BB4D-AD528405B469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E95370-2C5E-4920-BB4D-AD528405B469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E95370-2C5E-4920-BB4D-AD528405B469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E95370-2C5E-4920-BB4D-AD528405B469}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
