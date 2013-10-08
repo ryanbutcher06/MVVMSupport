@@ -77,8 +77,6 @@
     <Compile Include="ViewModels\ViewModelInterfaces\IShowableViewMdoel.cs" />
     <Compile Include="Views\ApplicationWindow.cs" />
     <Compile Include="WeakRefrence\WeakAction.cs" />
-    <Compile Include="WeakRefrence\WeakActionBase.cs" />
-    <Compile Include="WeakRefrence\WeakActionGeneric.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
