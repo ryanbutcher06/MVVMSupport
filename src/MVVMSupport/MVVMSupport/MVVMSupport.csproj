@@ -51,6 +51,7 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\DelegateCommand.cs" />
     <Compile Include="Messenger\DataMessage.cs" />
     <Compile Include="Messenger\IMessage.cs" />
     <Compile Include="Messenger\NotificiationMessage.cs" />
